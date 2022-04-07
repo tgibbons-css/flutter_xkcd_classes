@@ -29,7 +29,7 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
 
-  List<Comic> xkcdComics = new List();
+  List<Comic> xkcdComics = [];
 
   _MyHomePageState() {
     xkcdComics.add(new Comic(
